@@ -1,0 +1,9 @@
+Capture snapshots of web pages using MacRuby.  Based on original code from Ben Curtis, crudely converted to MacRuby by Tom Ward.  
+
+Usage: macruby snapper.rb [options] URL FILENAME
+
+Examples:
+
+macruby snapper.rb http://tomafro.net tomafro.net.pdf
+macruby snapper.rb --width 400 --height 200 http://google.com google.com.pdf
+macruby snapper.rb --filetype gif http://github.com github.com
